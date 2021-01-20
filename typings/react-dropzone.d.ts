@@ -57,7 +57,7 @@ export interface DropzoneRef {
   open: () => void;
 }
 
-export interface DropzoneRootProps extends React.HTMLAttributes<HTMLElement> {
+export interface DropzoneRootProps extends React.HTMLAttributes<HTMLDivElement> {
   refKey?: string;
   [key: string]: any;
 }
